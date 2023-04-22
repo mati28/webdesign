@@ -1,0 +1,35 @@
+CREATE DATABASE IF NOT EXISTS employee_management;
+hdfs dfs -ls /user/hive/warehouse/
+
+CREATE DATABASE IF NOT EXISTS empl LOCATION '/apps/mydb';
+
+set hive.metastore.warehouse.dir='path'
+
+try {
+
+
+} catch(){
+
+} finally {
+
+}
+
+CREATE TABLE IF NOT EXISTS dbname.tablename
+(first_name string ,
+last_name string,
+salary double)
+PARTITIONED BY
+CLUSTERED BY
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION
+STORED AS
+
+LOAD DATA LOCAL INPATH '' INTO TABLE tablename
+
+DROP TABLE IF EXISTS table_name PURGE
+
+hive.metastatore.data.skipTrash
+
+/tmp/hive/user
+
